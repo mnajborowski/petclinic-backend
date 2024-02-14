@@ -1,0 +1,35 @@
+@id = 65ccda877a4a822a1414005c
+
+###
+GET {{host}}/pets
+Authorization: Basic user {{password}}
+
+###
+GET {{host}}/pets/{{id}}
+Authorization: Basic user {{password}}
+
+###
+DELETE {{host}}/pets/{{id}}
+Authorization: Basic user {{password}}
+
+###
+POST {{host}}/pets
+Authorization: Basic user {{password}}
+Content-Type: application/json
+
+{
+  "name": "Masełko",
+  "breed": "LABRADOR",
+  "age": 3
+}
+
+###
+PUT {{host}}/pets/{{id}}
+Authorization: Basic user {{password}}
+Content-Type: application/json
+
+{
+  "name": "Kiełbaska",
+  "breed": "DACHSHUND",
+  "age": 4
+}
