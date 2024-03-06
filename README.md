@@ -12,3 +12,4 @@ The goal of this project is for me to learn some Spring/JVM technologies, mostly
 - Kubernetes
 - Terraform
 - Swagger OpenAPI
+- CI/CD
